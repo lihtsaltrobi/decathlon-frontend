@@ -108,6 +108,7 @@ import { enumKeys } from "../util/EnumUtils";
 import VueBootstrapTypeahead from "vue-bootstrap-typeahead";
 import EventService from "../sevices/EventService";
 import EventResultModal from "./EventResultModal.vue";
+import { FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 
 export default Vue.extend({
   data(): {
@@ -189,6 +190,7 @@ export default Vue.extend({
   components: {
     VueBootstrapTypeahead,
     EventResultModal,
+    FontAwesomeIcon
   },
 });
 </script>

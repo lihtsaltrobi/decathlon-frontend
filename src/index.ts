@@ -7,7 +7,8 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faPlus, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faPlus, faPlusSquare, faFacebook, faTwitter, faInstagram)
+library.add(faPlus, faPlusSquare, faFacebook, faTwitter, faInstagram);
+
 let v = new Vue({
     el: "#app",
     template: `
